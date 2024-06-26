@@ -193,6 +193,59 @@ for foods in list_of_foods:
 
 print('Well done Denis!')
 
+cars = ['audi', 'bmw', 'subaru', 'toyota']
+for car in cars:
+    if car == ('bmw'):
+        print(car.upper())
+    else:
+        print(car.title())
+
+
+requested_toppings = 'mushrooms'
+if requested_toppings !='anchovies':
+    print("Hold the anchovies")
+
+answer = 42
+if answer !=42:
+    print("That is not correct answer. Please try again!")
+
+banned_users = ['andrew', 'carolina', 'david']
+user='marie'
+if user not in banned_users:
+    print(user.title()+",you can post a response if you wish.")
+
+ #Логические выражения Exercise 5-1
+car = 'subaru'
+print("Is car =='subaru'? I predit True.")
+print(car == 'subaru')
+print("\nIs car =='audi'? I predict False")
+print(car =='audi')
+
+
+#Make 10 conditions, 5 true and 5 false
+planet_one = 'mercury'
+planet_two = 'venus'
+planet_three = 'earth'
+planet_four = 'mars'
+planet_five = 'jupiter'
+
+condition1 = 5<2
+condition2 = 21<= 5
+condition3 = 'apple' == 'orange'
+condition4 = 5 != 5
+condition5 = 10*1 < 3
+
+print(planet_one == 'mercury')
+print(planet_two == 'venus')
+print(planet_three == 'earth')
+print(planet_four == 'mars')
+print(planet_five == 'jupiter')
+
+print(condition1)
+print(condition2)
+print(condition3)
+print(condition4)
+print(condition5)
 
 
 
