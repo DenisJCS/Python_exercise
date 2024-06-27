@@ -50,3 +50,15 @@ print(statment6)
 print(statment7)
 print(statment8)
 
+# Checking not present oi list
+names = ['Alice', 'Jessica', 'Simon', 'Albert', 'Kim','Trevor']
+banned_names = ['Alice', 'Kim', 'Simon']
+user = 'Alice'
+if user not in banned_names:
+     print(user.title(),",you are allowed to be here")
+else:
+     print("Sorry we can't allow you be here")
+#Everything below is IN function
+print('Jason' in names)
+print('Jessica' in names)
+print('Albert' in names)
