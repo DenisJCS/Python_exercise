@@ -247,6 +247,48 @@ print(condition3)
 print(condition4)
 print(condition5)
 
+# Checking not present oi list
+names = ['Alice', 'Jessica', 'Simon', 'Albert', 'Kim','Trevor']
+banned_names = ['Alice', 'Kim', 'Simon']
+user = 'Alice'
+if user not in banned_names:
+     print(user.title(),",you are allowed to be here")
+else:
+     print("Sorry we can't allow you be here")
+#Everything below is IN function
+print('Jason' in names)
+print('Jessica' in names)
+print('Albert' in names)
+
+my_fruits = ['apple', 'orange', 'banan']
+other_fruits = ['banan', 'orange', 'apple']
+print(len(my_fruits))
+
+
+
+my_fruits.sort(reverse=True)
+print(my_fruits)
+len(my_fruits)
+
+for fruit in my_fruits:
+     print(fruit)
+
+my_fruits.append('carrot')
+print(my_fruits)     
+for fruit in my_fruits:
+     print(fruit)
+my_fruits.sort()
+print(my_fruits)     
+
+#Vote.py
+age = 20
+if age >=18:
+     print("You are old enough to vote!")
+     print("Have you registered to vote yet?")
+else:
+     print("Sorry you are too young to vote.")
+     print("Please register to vote as soon as you turn 18!")
+
 
 
 
