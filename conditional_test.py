@@ -126,3 +126,47 @@ else:
      price=10
 print("Your admission cost is $"+str(price)+".")
 
+# page 238 exercise 5-5
+print("Exercise 5-5")
+alien_int = ['white', 'red', 'green']
+if 'white' in alien_int:
+     print("You earned 5 points")
+elif 'purple' in alien_int:
+     print("You earned 10 points") #Here I tried use only if function 
+else:
+     print('You earned 15 points)
+
+alien_int = ['white', 'red', 'green']
+if 'black' in alien_int:
+     print("You earned 5 points")
+elif 'red' in alien_int:
+     print("You earned 10 points") #Here I tried use only elif function 
+else:
+     print('You earned 15 points')
+
+alien_int = ['white', 'red', 'green']
+if 'black' in alien_int:
+     print("You earned 5 points")
+elif 'purple' in alien_int:
+     print("You earned 10 points") #Here I tried use only else function 
+else:
+     print('You earned 15 points')     
+
+print("\nExercies 5-6")
+#Giving information about age
+age = 45
+#Recieving result
+if age <= 2:
+     print("Baby")
+elif age >= 2 and age <4:
+     print("Kid")
+elif age >=4  and age <13:
+     print("Child")
+elif age >=13 and age <20:
+     print("Teenager")
+elif age >=20 and age <65:
+     print("Adult")
+else:
+     print("Old man")
+
+
