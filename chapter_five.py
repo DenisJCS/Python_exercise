@@ -47,11 +47,14 @@ if names:
 else:
     print("We need to ind some users!")
 
+
 # 5-10 Ckecking that user names are uniq
 current_users = ['Madiso', 'Mendal', 'Charlie' ,'Bravo', 'Alfa']
 new_users = ['Bravo', 'Elison', 'Charlie', 'Bane', 'Scot']
+#Lower case check
+current_users_lower =[user.lower() for user in current_users]
 for user in new_users:
-    if user in current_users:
-        print(f"Name {user}is not available please choose other name")
+    if user.lower() in current_users_lower:
+        print(f"Name {user} is not available please choose other name")
     else:
-     print(f"Name available , welcome {user}")
+     print(f"Name available , welcome {user}")  
