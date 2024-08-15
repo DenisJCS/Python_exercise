@@ -87,3 +87,15 @@ def win_percentage( wins, losses):
   return ration_wons * 100
 print(win_percentage(5, 5))
 print(win_percentage(10, 0))
+
+# Write your average function here:
+def average(num1, num2):
+  total = num1 + num2
+  return total / 2
+# Uncomment these function calls to test your average function:
+#print(average(1, 100))
+# The average of 1 and 100 is 50.5
+#print(average(1, -1))
+# The average of 1 and -1 is 0
+print(average(1, 100))
+print(average(1, -1))
