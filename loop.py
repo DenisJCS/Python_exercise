@@ -53,3 +53,15 @@ def tenth_power(num):
 print(tenth_power(1))
 print(tenth_power(0))
 print(tenth_power(2))
+
+
+# Write your square_root function here:
+def square_root(num):
+  return num ** 0.5
+# Uncomment these function calls to test your square_root function:
+#print(square_root(16))
+# should print 4
+#print(square_root(100))
+# should print 10
+print(square_root(16))
+print(square_root(100))
