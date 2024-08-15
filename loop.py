@@ -99,3 +99,21 @@ def average(num1, num2):
 # The average of 1 and -1 is 0
 print(average(1, 100))
 print(average(1, -1))
+
+
+# Write your remainder function here:
+def remainder(num1, num2):
+  first = num1 * 2
+  second = num2 / 2
+  return first % second
+# Uncomment these function calls to test your remainder function:
+#print(remainder(15, 14))
+# should print 2
+#print(remainder(9, 6))
+# should print 0
+print(remainder(15, 14))
+print(remainder(9, 6))
+
+#Short version 
+def remainder (num1 , num2):
+  return (2 * num1) % (num2 /2)
