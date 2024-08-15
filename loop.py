@@ -65,3 +65,25 @@ def square_root(num):
 # should print 10
 print(square_root(16))
 print(square_root(100))
+
+
+
+# Write your win_percentage function here:
+def win_percentage(wins, losses):
+  return wins / (wins + losses) *100
+
+# Uncomment these function calls to test your win_percentage function:
+#print(win_percentage(5, 5))
+# should print 50
+#print(win_percentage(10, 0))
+# should print 100
+print(win_percentage(5, 5))
+print(win_percentage(10, 0))
+
+#The same one but improved 
+def win_percentage( wins, losses):
+  total_games = wins + losses
+  ration_wons = wins / total_games
+  return ration_wons * 100
+print(win_percentage(5, 5))
+print(win_percentage(10, 0))
