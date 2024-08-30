@@ -14,3 +14,14 @@ answers = [
     "Try harder",
 ]
 answers = random.choice(answers)
+while question == "":
+    question = input("Please enter a question (or type 'q' to quit): ")
+    if question.lower() == "q":
+        print("Goodbye!")
+        break
+if question.lower() != "q":
+    if name == "":
+        print("Question"+ question)
+    else:
+        print(name + " asks: " + question)
+print("Magic 8-Ball's answer: " + answers)
