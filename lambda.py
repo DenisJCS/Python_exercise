@@ -54,4 +54,6 @@ print("Capitalized names:", capitalized_names)
 # Uncomment and modify the line below:
 # your_result = list(map(lambda x: # Your function here, names))
 # print("Your result:", your_result)
-
+Original names: ['Alice', 'Bob', 'Charlie', 'David', 'Eve']
+Name lengths: [5, 3, 7, 5, 3]
+Capitalized names: ['ALICE', 'BOB', 'CHARLIE', 'DAVID', 'EVE']
