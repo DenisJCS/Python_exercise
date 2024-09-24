@@ -40,6 +40,12 @@ company_motto = "Copeland's Corporate Company helps you capably cope with the co
 second_to_last = company_motto[-2]
 print(second_to_last)
 
+
+first_name = "Bob"
+last_name = "Daily"
+
+fixed_first_name = "R" + first_name[-2:]
+print(fixed_first_name)
 final_word = company_motto[-4:]
 print(final_word)
 
