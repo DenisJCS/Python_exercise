@@ -31,3 +31,14 @@ author_last_names = []
 for name in author_names:
   author_last_names.append(name.split()[-1])
 print(author_last_names)
+
+# Below is exercise of using JOIN method
+reapers_line_one_words = ["Black", "reapers", "with", "the", "sound", "of", "steel", "on", "stones"]
+
+reapers_line_one = ' '.join(reapers_line_one_words)
+print(reapers_line_one)
+
+
+Output-only Terminal
+Output:
+Black reapers with the sound of steel on stones
