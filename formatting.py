@@ -12,3 +12,10 @@ print(poem_author_fixed)
 
 print(poem_author)
 print(poem_author_fixed)
+
+Spring Storm
+spring storm
+William Carlos Williams
+WILLIAM CARLOS WILLIAMS
+William Carlos Williams
+WILLIAM CARLOS WILLIAMS
