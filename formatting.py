@@ -42,3 +42,25 @@ print(reapers_line_one)
 Output-only Terminal
 Output:
 Black reapers with the sound of steel on stones
+
+love_maybe_lines = ['Always    ', '     in the middle of our bloodiest battles  ', 'you lay down your arms', '           like flowering mines    ','\n' ,'   to conquer me home.    ']
+
+
+
+love_maybe_lines_stripped = []
+for word in love_maybe_lines:
+ love_maybe_lines_stripped.append(word.strip())
+print(love_maybe_lines_stripped)
+
+love_maybe_full = '\n'.join(love_maybe_lines_stripped)
+
+print(love_maybe_full)
+
+
+['Always', 'in the middle of our bloodiest battles', 'you lay down your arms', 'like flowering mines', '', 'to conquer me home.']
+Always
+in the middle of our bloodiest battles
+you lay down your arms
+like flowering mines
+
+to conquer me home.
