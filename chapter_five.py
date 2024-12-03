@@ -147,30 +147,5 @@ for user in new_users:
     else:
      print(f"Name available , welcome {user}")  
 
-#Exercise 5-11 Number
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-for number in numbers:
-    if number == 1:
-      print(f"{number}st")
-    elif number == 2:
-      print(f"{number}nd")
-    elif number == 3:
-      print(f"{number}rd")
-    else:
-      print(f"{number}th")
-#The same list just as a string
-ordinal_string = ""
-for number in numbers:
-   if number == 1:
-     ordinal_string += f"{number}st "
-   elif number ==2:
-     ordinal_string += f"{number}nd "
-   elif number ==3:
-     ordinal_string += f"{number}rd "
-   else:
-     ordinal_string += f"{number}th "
-
-ordinal_string = ordinal_string.strip()
-print(ordinal_string)
 
 
