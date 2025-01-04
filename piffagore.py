@@ -29,7 +29,18 @@ True
 >>> x=24
 >>> x=5
 >>> x
+
 5
+
+>>> 2==2 and 10 != 5 ==5 and 6<10
+True
+>>> not 1==3
+True
+>>> not 1!=1
+True
+>>> not 5==5
+False
+>>> 
 >>> x=5
 >>> x !=5
 False
