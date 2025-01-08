@@ -15,3 +15,8 @@ while True:
     else:
         print(f"You are adult , good buy ! :)")
 
+
+# How to created alphabet and sort it 
+a = 'qwertyuiopasdfghjklzxcvbnm'
+
+print(*sorted(a))
